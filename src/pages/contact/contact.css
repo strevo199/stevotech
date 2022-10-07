@@ -1,0 +1,6 @@
+.home {
+    background: radial-gradient(rgba(17, 16, 16, 0.639), rgba(0, 0, 0, 0.93)), url('../../img/techbro.jpg');
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
