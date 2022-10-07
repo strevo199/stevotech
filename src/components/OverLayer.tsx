@@ -13,7 +13,7 @@ export const OverLayer:FC <OverLayerProps>= (props: OverLayerProps) => {
         {title: 'ABOUT', link: '/about'},
         {title: 'MY WORK', link: '/mywork'},
         {title: 'HOW TO REACH ME', link: '/contact'},
-        {title: 'BLOG', link: '/blog'},
+        {title: 'BLOG', link: '/blogs'},
     ])
     const location = useLocation();
 
