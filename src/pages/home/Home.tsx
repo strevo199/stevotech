@@ -21,10 +21,10 @@ export const Home = () => {
                     <div className=' text-white sm:text-8xl font-semibold text-5xl'>Stephen <span className=' text-yellow-500'>Mgbeojikwe</span></div>
                     <div className=' bg-slate-800 bg-opacity-50 sm:text-2xl text-sm my-4 font-semibold text-white'>Web Developer, Mobile UI Developer & Backend Developer</div>
                     <div className='flex gap-5'>
-                        <a href=""><i className='fab text-white fa-twitter text-xl sm:text-3xl'/></a>
-                        <i className='fab text-white fa-facebook text-xl sm:text-3xl'/>
-                        <i className='fab text-white fa-linkedin text-xl sm:text-3xl'/>
-                        <i className='fab text-white fa-github text-xl sm:text-3xl'/>
+                        <a href="https://twitter.com/stevola11"><i className='fab text-white fa-twitter hover:text-yellow-600 text-xl sm:text-3xl'/></a>
+                        <a href="https://www.facebook.com/stevo.lala.18"><i className='fab text-white hover:text-yellow-600 fa-facebook text-xl sm:text-3xl'/></a>
+                        <a href="https://www.linkedin.com/in/stephen-mgbeojikwe/"><i className='fab text-white hover:text-yellow-600 fa-linkedin text-xl sm:text-3xl'/></a>
+                        <a href="https://github.com/strevo199"><i className='fab text-white fa-github hover:text-yellow-600 text-xl sm:text-3xl'/></a>
                     </div>
                 </div>
             </div>
