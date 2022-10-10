@@ -31,7 +31,7 @@ export const AddMywork = () => {
          formdata = Object.assign(data,{gifurl: reader.result});
 
 
-       axios.post('http://localhost:5000/api/v1/myworks',formdata)
+       axios.post('https://stevotech-be.herokuapp.com/api/v1/myworks',formdata)
            .then(res => {
                console.log(res)
                if (res.data.status === "success") {

@@ -19,7 +19,7 @@ export const Mywork = () => {
 
     useEffect(() => {
         setisloading(true)
-        axios.get('http://localhost:5000/api/v1/myworks')
+        axios.get('https://stevotech-be.herokuapp.com/api/v1/myworks')
             .then(res => {
                 if (res.data.status === "success") {
                     setisloading(false)
@@ -66,7 +66,7 @@ console.log(myworks);
                             <div key={mywork._id} className=' rounded-lg flex-1 flex h-60 bg-slate-300 flex-col'>
                                 <div>
                                     <div className=' text-white text-xl bg-slate-700 text-center'>{mywork.title}</div>
-                                </div>                                
+                                </div>
 
                                 <div  className=' flex-1' style={{background: `url(${(mywork.gifurl)})`, backgroundRepeat:'no-repeat', backgroundPosition:'center', backgroundSize:'cover'}}>
                                 </div>
@@ -74,7 +74,7 @@ console.log(myworks);
                                     <div className=' text-white text-lg font-bold bg-yellow-600 text-center'>
                                         <a target="_blank" href={mywork.github_repo}>View</a>
                                     </div>
-                                </div>                                
+                                </div>
                             </div>
                         )}) :
                         (<div className=' text3xl text-white'>Loading....</div>)
