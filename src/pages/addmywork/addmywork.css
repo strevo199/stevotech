@@ -1,0 +1,6 @@
+.addmywork {
+    background: radial-gradient(rgba(113, 110, 110, 0.725), rgba(139, 132, 132, 0.748)), url('../../img/work1.jpeg');
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

@@ -2,6 +2,7 @@
     background: radial-gradient(rgba(23, 20, 20, 0.734), rgba(0, 0, 0, 0.93)), url('../../img/techbro.jpg');
     background-position:center;
     background-size: cover;
+    background-attachment: fixed;
     background-repeat: no-repeat;
 }
 .photo3 {

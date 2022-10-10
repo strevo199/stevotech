@@ -73,7 +73,6 @@ export const About = () => {
                     <div className='text-sm sm:text-lg text-white'>Multitalented Software Developer with experience in the software industry. Demonstrated excellent skills in HTML, Angular, CSS3, REACT, REACT NATIVE, NODE, EXPRESS, MongoDB, JavaScript and TypeScript . True team player with strengths in adaptability and accuracy. Results-oriented software engineering professional with more than 3 years of experience in the field. Well-versed in promoting object-oriented programming to real-time software development. Analytical and detail-oriented.</div>
                     <div className=' my-4'>
                         <a className='text-black bg-yellow-600 font-bold rounded-md px-3 py-2' href="https://my.indeed.com/p/stephenm-xdcw7gf">Download Resume</a>
-
                     </div>
                 </div>
             </div>

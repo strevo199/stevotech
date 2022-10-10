@@ -28,7 +28,7 @@ export const OverLayer:FC <OverLayerProps>= (props: OverLayerProps) => {
             {
                 navLinks.map(link => {
                     return (
-                        <Link to ={link.link} className = {link.link === location.pathname ? ' text-yellow-400': ' text-white  hover:text-yellow-400'} ><div className='sm:text-4xl text-xl'>{link.title}</div></Link>
+                        <Link key={link.link} to ={link.link} className = {link.link === location.pathname ? ' text-yellow-400': ' text-white  hover:text-yellow-400'} ><div className='sm:text-4xl text-xl'>{link.title}</div></Link>
                     )
                 })
             }
