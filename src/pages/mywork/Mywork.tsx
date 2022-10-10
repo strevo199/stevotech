@@ -47,7 +47,7 @@ console.log(myworks);
                 <i ref={getmenuIcon} onClick={handleToggleMenu} className={toggle?'fa fixed z-10 text-white fa-xmark text-3xl':'fa fixed z-10 text-white fa-bars text-3xl'}/>
             </div>
             <div className=' w-11/12 mx-auto'>
-                    <div className=' text-white text-8xl font-semibold'>My <span className=' text-yellow-600'>Work</span></div>
+                    <div className=' text-white text-3xl sm:text-8xl font-semibold'>My <span className=' text-yellow-600'>Work</span></div>
                     <div className=' justify-between flex'>
                         <div className='  text-sm sm:text-2xl myt-3 font-semibold text-white capitalize'>Check Out some of my project...</div>
                         {/* <Link to= 'add' className='font-semibold w-24 bg-yellow-600 rounded-md px-2 py-1 shadow shadow-fuchsia-100'>Add Work</Link> */}
